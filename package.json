@@ -11,7 +11,7 @@
     "start-dev": "webpack serve --config=configs/webpack/dev.js",
     "start-prod": "npm run build && node express.js",
     "test": "jest --coverage --watchAll --config=configs/jest.json",
-    "prettier-format":"prettier --config .prettierrc 'src/**/*.ts' --write"
+    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write"
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,8 @@
   "homepage": "https://github.com/githubVivek55/react-session-timer#readme",
   "dependencies": {
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "reactstrap": "^9.0.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.16.0",
